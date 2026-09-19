@@ -748,7 +748,7 @@ add_body(
     "Zero synthetic data imputation was performed. All data points are linked to SHA-256 verified primary files. "
     "The replication test suite (pytest tests/) passes with 6/6 tests covering unit root stationarity, "
     "time-horizon logistic fits, and table generation. The complete replication package is publicly available "
-    "on GitHub (https://github.com/giabaohuynhasu/the-floor-that-does-not-rise) and Hugging Face Hub (https://huggingface.co/datasets/Jun33550336/the-floor-that-does-not-rise)."
+    "on GitHub (https://github.com/giabaohuynhasu/the-floor-that-does-not-rise) and Hugging Face Hub (https://huggingface.co/datasets/giabaohuynhasu/the-floor-that-does-not-rise)."
 )
 
 # ============================================================

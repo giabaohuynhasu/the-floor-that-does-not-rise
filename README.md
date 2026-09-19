@@ -7,6 +7,10 @@
 *Email: huynhbao@asu.edu · ORCID: [0009-0008-2372-5852](https://orcid.org/0009-0008-2372-5852)*  
 *Collaborator: Claude Sonnet 5 & Gemini Spark*
 
+**Repositories**:
+- 🌐 **GitHub**: [https://github.com/giabaohuynhasu/the-floor-that-does-not-rise](https://github.com/giabaohuynhasu/the-floor-that-does-not-rise)
+- 🌐 **Hugging Face Hub**: [https://huggingface.co/datasets/giabaohuynhasu/the-floor-that-does-not-rise](https://huggingface.co/datasets/giabaohuynhasu/the-floor-that-does-not-rise)
+
 ---
 
 ## 📌 Overview & Abstract

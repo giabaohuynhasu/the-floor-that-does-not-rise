@@ -92,7 +92,7 @@ if hf_token:
     try:
         from huggingface_hub import HfApi
         api = HfApi(token=hf_token)
-        hf_repo_id = "Jun33550336/the-floor-that-does-not-rise"
+        hf_repo_id = "giabaohuynhasu/the-floor-that-does-not-rise"
         api.upload_folder(
             folder_path=str(PROJECT_ROOT),
             repo_id=hf_repo_id,
