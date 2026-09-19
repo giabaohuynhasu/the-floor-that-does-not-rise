@@ -90,7 +90,7 @@ the-floor-that-does-not-rise/
 ├── tests/
 │   └── test_pipeline.py                # 6 automated validation tests (pytest)
 └── outputs/
-    ├── The_Floor_That_Does_Not_Rise_FINAL_Enhanced.docx # Full enhanced manuscript
+    ├── The_Floor_That_Does_Not_Rise_REWRITTEN_FINAL.docx # Completely rewritten manuscript (ALRP canon)
     ├── research_data_audit.pdf          # Full research data audit report
     ├── all_figures.zip                 # All publication figures
     ├── tables/                         # Generated CSV and LaTeX tables
