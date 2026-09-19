@@ -3,10 +3,15 @@ title: "ERI Master Mindmap & Dialectic Citation Network: Institutional Endurance
 author: "Gia Bao Huynh (Jun Huynh)"
 affiliation: "Independent Researcher, Ho Chi Minh City, Vietnam"
 target_publisher: "Yale University Press (3-Volume Series Proposal)"
-notebooklm_uuid: "ad858f22-d53b-48b8-a0fb-0b128e451ec4"
+notebooklm_grounding:
+  notebook_title: "ERI: Institutional Endurance & Entropy-Resistant Institutions - Gemini Notebook"
+  notebook_uuid: "ad858f22-d53b-48b8-a0fb-0b128e451ec4"
+  source_count: 49
+  verified_via: "Opera Neon CDP Bridge (Port 9224)"
 locked_baseline: "N=6 fsQCA (Tang, Morocco, Nigeria, Tunisia, Japan, Comparative Anchor)"
 fsqca_solution: "Collapse = (O * M) + (M * ~B) [Consistency: 0.75, Coverage: 0.75]"
-version: "2.0-Production"
+expanded_csqca_n24: "The Fatal Triad: NRI * HVF * CIS -> Breakdown [Consistency: 1.0, Coverage: 0.6923]"
+version: "3.0-NotebookLM-Enriched"
 date: "2026-09-20"
 tags:
   - institutional-endurance
@@ -14,87 +19,126 @@ tags:
   - institutional-entropy
   - sovereign-override
   - mediation-elasticity
-  - comparative-politics
+  - jiankang-graft-model
+  - erii-index
+  - notebooklm-grounded
 ---
 
-# ERI Master Mindmap & Dialectic Citation Network
+# ERI Master Mindmap & Dialectic Citation Network (NotebookLM Grounded)
 
 > [!IMPORTANT]
 > **RULE ZERO (SUPREME DIRECTIVE)**: The locked $N=6$ fsQCA baseline table and truth-table solution (`Collapse = (O * M) + (M * ~B)` at consistency=0.75, coverage=0.75) must NEVER be altered, smoothed, or re-coded silently. Tang Dynasty citation MUST be **Dardess (1973) *Conquerors and Confucians*** (NOT 1994). Direct Sovereign Override ($O$) alone is *insufficient* for institutional collapse; Mediation Structure ($M$) is the necessary nexus.
 
 ```mermaid
 graph TD
-    subgraph ERI_Core ["ERI Core Architecture (Yale 3-Volume Series)"]
-        VOL1["Volume I: Mechanics of Institutional Endurance<br/>Entropy, Mediation, & Boundary Limits"]
-        VOL2["Volume II: Comparative fsQCA Calibration<br/>The Locked N=6 Baseline & Empirical Cases"]
-        VOL3["Volume III: Architecture of Longevity<br/>Sovereign Limits & Post-Collapse Succession"]
+    subgraph ERI_3Vol ["ERI Three-Volume Architecture (Yale University Press)"]
+        VOL1["Volume I: The Infrastructure of Borrowed Legitimacy<br/>Direct vs Indirect Rule & Customary Court Legacy (r = -0.83)"]
+        VOL2["Volume II: Mediation Networks & The Anatomy of Collapse<br/>The Locked N=6 Baseline & Expanded N=24 Fatal Triad"]
+        VOL3["Volume III: Entropy-Resistant Institutions (ERI Construct)<br/>Substrate Independence & The 6 Structural Attributes"]
     end
 
-    subgraph Core_Claims ["Core Formal Invariants"]
-        CLM1["Claim 1: The Locked N=6 fsQCA Baseline<br/>Collapse = (O * M) + (M * ~B)"]
-        CLM2["Claim 2: Sovereign Override Insufficiency<br/>O alone cannot collapse an institution"]
-        CLM3["Claim 3: Mediation Elasticity as Necessary Nexus<br/>M failure triggers systemic cascade"]
-        CLM4["Claim 4: Institutional Entropy Rate<br/>dS_inst / dt > 0 without active work"]
+    subgraph ERI_Key_Mechanisms ["Key Formal Frameworks & Findings"]
+        F1["Locked N=6 fsQCA Baseline<br/>Collapse = (O * M) + (M * ~B)"]
+        F2["Expanded N=24 Fatal Triad<br/>NRI * HVF * CIS -> Breakdown (Cons=1.0)"]
+        F3["ERII Index & The Ranking Flip<br/>Endurance vs. Disruption Density Weighting"]
+        F4["The Jiankang Graft Model<br/>Building Substrate Before Institutional Apparatus"]
+        F5["The Consociational Arbitrator Trap<br/>International Protectorate Stagnation (Bosnia/Kosovo)"]
     end
 
-    subgraph Contributed_Thinkers ["Foundational & Corroborating Thinkers (Contributed)"]
-        DARDESS["John W. Dardess (1973)<br/>Conquerors and Confucians<br/>[FOUNDATIONAL_EMPIRICS | ACCEPTED]"]
-        DOWER["John W. Dower (1999)<br/>Embracing Defeat<br/>[BUREAUCRATIC_CONTINUITY | ACCEPTED]"]
-        PERKINS["Kenneth J. Perkins (2004)<br/>A History of Modern Tunisia<br/>[PROTECTORATE_DYNAMICS | ACCEPTED]"]
-        LUGARD["Lord Frederick Lugard (1922)<br/>Dual Mandate in British Tropical Africa<br/>[INDIRECT_RULE_MEDIATION | ACCEPTED]"]
-        PERHAM["Margery Perham (1937)<br/>Native Administration in Nigeria<br/>[DECENTRALIZED_INSTABILITY | ACCEPTED]"]
-        BURKE["Edmund Burke III (1976)<br/>Prelude to Protectorate in Morocco<br/>[MAKHZEN_RESILIENCE | ACCEPTED]"]
-        PENNELL["C.R. Pennell (2000)<br/>Morocco Since 1830<br/>[SHERIFIAN_LEGITIMACY | ACCEPTED]"]
-        RAGIN["Charles C. Ragin (2000/2008)<br/>Fuzzy-Set Qualitative Comparative Analysis<br/>[FORMAL_METHODOLOGY | ACCEPTED]"]
-        NORTH["Douglass C. North (1990)<br/>Institutions, Institutional Change<br/>[CREDIBLE_COMMITMENT | ACCEPTED]"]
-        SKOCPOL["Theda Skocpol (1979)<br/>States and Social Revolutions<br/>[STRUCTURAL_AUTONOMY | ACCEPTED]"]
-        WEBER["Max Weber (1922)<br/>Economy and Society<br/>[LEGAL_RATIONAL_BUREAUCRACY | ACCEPTED]"]
+    subgraph Foundational_Thinkers ["Foundational Thinkers (Contributed)"]
+        DARDESS["John W. Dardess (1973)<br/>Conquerors & Confucians<br/>[TANG_BASELINE | ACCEPTED]"]
+        CHITTICK["Andrew Chittick (2020)<br/>The Jiankang Empire<br/>[JIANKANG_GRAFT | ACCEPTED]"]
+        TAYLOR["Keith Weller Taylor (1983)<br/>The Birth of Vietnam<br/>[SINITIC_TRANSMISSION | ACCEPTED]"]
+        DOWER["John W. Dower (1999)<br/>Embracing Defeat (SCAP Japan)<br/>[BUREAUCRATIC_INERTIA | ACCEPTED]"]
+        PERKINS["Kenneth Perkins (2004)<br/>A History of Modern Tunisia<br/>[PROTECTORATE_DYNAMICS | ACCEPTED]"]
+        LUGARD["Lord Frederick Lugard (1922)<br/>Dual Mandate in British Africa<br/>[INDIRECT_RULE_ARCHIVE | ACCEPTED]"]
+        HECHTER["Michael Hechter (2013)<br/>Alien Rule (Rational Choice)<br/>[MONITORING_COSTS | ACCEPTED]"]
+        OSTROM["Elinor Ostrom (1990)<br/>Governing the Commons<br/>[LEGITIMACY_AS_COMMONS | EXTENDED]"]
+        LANGE["Matthew Lange (2004/2009)<br/>Lineages of Despotism<br/>[CUSTOMARY_COURT_DATA | ACCEPTED]"]
+        NWW["North, Wallis, & Weingast (2009)<br/>Violence & Social Orders<br/>[LIMITED_ACCESS_ORDERS | EXTENDED]"]
+        RAGIN["Charles C. Ragin (1987/2000)<br/>Fuzzy-Set Social Science<br/>[FSQCA_METHODOLOGY | ACCEPTED]"]
     end
 
     subgraph Countered_Thinkers ["Contrasted & Refuted Thinkers (Countered)"]
-        ACEMOGLU["Acemoglu & Robinson (2012)<br/>Why Nations Fail<br/>[CRITIQUED: Crude Binary Institutionalism]"]
-        LIPSET["Seymour Martin Lipset (1959)<br/>Modernization Theory<br/>[REFUTED: Linear Democratic Inevitability]"]
-        PRIN_AGENT["Crude Principal-Agent Models<br/>Zero-Cost Transmission Assumptions<br/>[REJECTED: Ignores Mediation Friction]"]
+        ACEMOGLU["Acemoglu & Robinson (2012)<br/>Why Nations Fail<br/>[REFUTED: Crude Inclusive/Extractive Binary]"]
+        LIPSET["Seymour Martin Lipset (1959)<br/>Modernization Theory<br/>[REFUTED: Ignores Institutional Entropy dS/dt]"]
+        HUNTINGTON_FUKUYAMA["Huntington (1968) & Fukuyama (2011)<br/>Political Order & Decay<br/>[EXTENDED: Consociational Arbitrator Trap]"]
     end
 
-    %% Dialectic Edges
-    VOL1 --> CLM2
-    VOL1 --> CLM4
-    VOL2 --> CLM1
-    VOL2 --> CLM3
-    VOL3 --> CLM2
+    %% Dialectic Links
+    VOL1 --> LANGE
+    VOL1 --> HECHTER
+    VOL1 --> LUGARD
+    VOL2 --> F1
+    VOL2 --> F2
+    VOL2 --> DARDESS
+    VOL2 --> DOWER
+    VOL2 --> PERKINS
+    VOL2 --> RAGIN
+    VOL3 --> F3
+    VOL3 --> F4
+    VOL3 --> F5
+    VOL3 --> CHITTICK
+    VOL3 --> OSTROM
+    VOL3 --> NWW
 
-    DARDESS -->|"[ PROVIDES_TANG_EVIDENCE | ACCEPTED ]"| CLM1
-    DOWER -->|"[ PROVIDES_JAPAN_EVIDENCE | ACCEPTED ]"| CLM1
-    PERKINS -->|"[ PROVIDES_TUNISIA_EVIDENCE | ACCEPTED ]"| CLM1
-    LUGARD -->|"[ PROVIDES_NIGERIA_EVIDENCE | ACCEPTED ]"| CLM1
-    BURKE -->|"[ PROVIDES_MOROCCO_EVIDENCE | ACCEPTED ]"| CLM1
-    RAGIN -->|"[ PROVIDES_QCA_LOGIC | ACCEPTED ]"| CLM1
-    NORTH -->|"[ FOUNDS_COMMITMENT_THEORY | EXTENDED ]"| VOL1
-    SKOCPOL -->|"[ PROVIDES_STATE_AUTONOMY | EXTENDED ]"| VOL2
-    WEBER -->|"[ DEFINES_BUREAUCRACY | EXTENDED ]"| VOL1
-
-    ACEMOGLU -.->|"[ REFUTED_BY | INSUFFICIENT ]"| CLM3
-    LIPSET -.->|"[ FALSIFIED_BY | REJECTED ]"| CLM4
-    PRIN_AGENT -.->|"[ OVERTURNED_BY | FRICTIONLESS_FLAW ]"| CLM2
-
-    %% Cross-Project Bridges
-    ALRP_BRIDGE["Cross-Project Link: ALRP<br/>Mediation Latency = Capacity-Latency Paradox"]
-    CLM3 <==>|"[ FORMAL_ISOMORPHISM | MUTUAL_REINFORCING ]"| ALRP_BRIDGE
+    ACEMOGLU -.->|"[ REFUTED_BY_ERI | SUBSTRATE_DEPTH_IGNORED ]"| VOL1
+    LIPSET -.->|"[ FALSIFIED_BY_ERI | ENTROPY_DECAY ]"| VOL2
+    HUNTINGTON_FUKUYAMA -.->|"[ EXTENDED_BY_ERI | PROTECTORATE_HOLLOWING ]"| F5
 ```
 
-## The Locked $N=6$ fsQCA Truth Table
-| Case | Sovereign Override ($O$) | Mediation Failure ($M$) | Bureaucratic Boundary ($B$) | Institutional Collapse ($Y$) | Historical Citation |
-| :--- | :---: | :---: | :---: | :---: | :--- |
-| **Tang Dynasty** (Late 9th c.) | 0.5 | 0.5 | 0.8 | 0.5 | Dardess (1973) *Conquerors and Confucians* |
-| **Morocco** (19th-20th c. Makhzen) | 0.8 | 0.2 | 0.5 | 0.5 | Burke (1976); Pennell (2000) |
-| **Nigeria** (Colonial Indirect Rule) | 0.7 | 0.8 | 0.3 | 0.9 | Lugard (1922); Perham (1937) |
-| **Tunisia** (French Protectorate) | 0.6 | 0.7 | 0.4 | 0.8 | Perkins (2004) |
-| **Japan** (Meiji & Post-WWII) | 0.2 | 0.1 | 0.9 | 0.1 | Dower (1999) |
-| **Comparative Anchor** | 0.4 | 0.5 | 0.6 | 0.3 | Cross-regional Synthetic Baseline |
+---
 
-**Boolean Minimization**:
-$$	ext{Collapse} = (O \cdot M) + (M \cdot \sim B)$$
-- **Consistency**: 0.75
-- **Coverage**: 0.75
-- **Crucial Theoretical Insight**: Direct Sovereign Override ($O$) appears in the collapse solution *only in conjunction with Mediation Failure ($M$)*. When $M$ is resilient ($M \le 0.2$), even massive sovereign overreach ($O = 0.8$, Morocco) does NOT produce full institutional collapse ($Y = 0.5$). Conversely, when $M$ is broken ($M \ge 0.7$) and bureaucratic boundaries erode ($\sim B$), collapse is near certain ($Y \ge 0.8$), regardless of the sovereign's intent.
+## 1. The Three-Volume Architecture (Summary from NotebookLM)
+
+### Volume I: The Infrastructure of Borrowed Legitimacy
+- **Central Query**: How do institutions survive the departure of their creators, and why does bureaucratic capacity vary so drastically across postcolonial states?
+- **Core Empirical Finding**: Bureaucratic capacity is an inherited artifact of the colonial legal substrate.
+  - Where colonizers built uniform, state-centered legal hierarchies through **Direct Rule** (e.g. Mauritius, Barbados, Singapore), they bequeathed impersonal administrative machinery that endured.
+  - Where colonizers relied on **Indirect Rule** by preserving and manipulating traditional chiefdoms and customary tribunals (e.g. Northern Nigeria, Sierra Leone, Uganda), they institutionalized "bifurcated despotisms" that crippled postcolonial state capacity.
+- **Statistical Benchmark**: Replicating Matthew Lange's dataset ($N=33$) alongside an original pilot ($N=18$), the analysis yields a robust negative correlation ($r = -0.83, R^2 = 0.69$) between the customary court ratio and postcolonial bureaucratic effectiveness.
+
+### Volume II: Mediation Networks & The Anatomy of Collapse
+- **Central Query**: What constitutes the tipping point between controlled institutional stress and irreversible procedural unraveling during governance transitions or imperial exits?
+- **Core Theoretical Finding**: Direct Sovereign Override ($O$) is *insufficient* for clean institutional collapse. Sovereign decree without mediation transmission produces friction, evasion, and bureaucratic inertia. Collapse occurs specifically when mediation channels ($M$) either defect or become brittle conduits for unbuffered shocks.
+- **The Locked $N=6$ fsQCA Baseline**:
+  $$\text{Collapse} = (O \cdot M) + (M \cdot \sim B) \quad [\text{Consistency: 0.75, Coverage: 0.75}]$$
+- **The Expanded $N=24$ csQCA Truth Table**:
+  - **The Fatal Triad**: $\text{NRI} \times \text{HVF} \times \text{CIS} \to \text{Breakdown}$ (Consistency = 1.0000, Coverage = 0.6923). Explains 69.2% of post-transition breakdowns across world history (Roman Judaea, Mauretania, Kashmir 1947, Hyderabad 1948, Biafra/Nigeria 1960, Mengo Palace/Uganda 1966).
+  - **The Smooth Exit Path**: $\text{NRI} \times \sim\text{HVF} \times \sim\text{CIS} \to \text{Peaceful Exit}$ (Consistency = 1.0000) across 7 cases (SCAP Japan, UNTAC Cambodia, Commagene, Nabataea).
+
+### Volume III: Entropy-Resistant Institutions (The ERI Construct)
+- **Central Query**: How can human and automated governance institutions be engineered to maintain dynamic equilibrium across multi-generational horizons?
+- **The ERI Triad**:
+  1. *Substrate Independence*: Institutional memory and procedural validity must not reside in individual human charisma or single-vendor digital platforms.
+  2. *Asynchronous Zero-Trust Auditability*: Continuous verification of executive actions against constitutional invariants.
+  3. *Elastic Mediation Buffers*: Built-in latency buffers that prevent high-frequency external disruptions from destabilizing deliberative governance.
+- **The 6 Structural Attributes of ERI** (Extracted from Jiankang Empire 220–589 CE, Japanese Imperial House c. 500–present, and the Holy See c. 33–present):
+  1. *Decoupling of Legitimating Authority from Executive Power*: Ceding daily executive control to preserve the overarching legitimating function.
+  2. *Succession Independent of Biological Lineage*: Institutionalized selection mechanisms (e.g. Papal Conclave) immune to dynastic extinction.
+  3. *Universalist Claims Transcending Territory*: Legitimating principles not coextensive with physical borders.
+  4. *Absorption Capacity for External Actors*: Ability to absorb successive waves of conquerors or paradigm shifts without losing core identity.
+  5. *Productive Ambiguity of Institutional Role*: Strategic role fluidity preventing efficient targeting by hostile actors.
+  6. *Output-Leadership Separation*: Primary institutional output carried by the office rather than the personal qualities of the leader.
+
+---
+
+## 2. The ERII Index & The Ranking Flip
+The Entropy-Resistant Institution Index (ERII) reveals a critical property: "entropy resistance" bundles two un-correlated properties:
+- **Formula A (Endurance-weighted)**: Ranks Holy See (0.90) > Japan (0.50) > Jiankang (0.15).
+- **Formula B (Density-weighted)**: Ranks Jiankang (0.60) > Holy See (0.49) > Japan (0.15).
+- **The Density Gap**: Historical disruption density ($\delta$) mapped against the formal Biological Zero-Day Mechanism ($\lambda_{\text{bz}} \approx 0.5/\text{year}$, or ~50 disruptions/century). The highest historical survivor (Jiankang, $\delta = 1.36$) is 37 times lower than $\lambda_{\text{bz}}$, proving that historical ERI templates are tested far below projected F2 biopolitics demand.
+
+---
+
+## 3. Thinker Dialectic Matrix (NotebookLM Grounded)
+
+| Thinker & Work | Core Contribution to ERI | ERI Dialectic Critique / Extension |
+| :--- | :--- | :--- |
+| **Michael Hechter (2013)** *Alien Rule* | Rational choice microfoundations: monitoring costs, agency slack, subordinate despotism. | Explains why indirect rule creates unbridgeable agency slack in postcolonial bureaucracies. |
+| **Elinor Ostrom (1990)** *Governing the Commons* | 8 Design Principles for common-pool resource management. | Mapped Ostrom's 8 principles onto political authority and legitimacy as an institutional common-pool resource. |
+| **North, Wallis, & Weingast (2009)** *Violence and Social Orders* | Limited Access Orders (Natural States) and elite rent-creation matrices. | Extended to explain how elite rent-sharing buffers sovereign override until mediation channels calcify. |
+| **Andrew Chittick (2020)** *The Jiankang Empire* | The Jiankang Graft Model (building substrate before apparatus). | Demonstrates how the Jiankang administrative substrate survived 300+ years of regime turnover. |
+| **Matthew Lange (2004/2009)** *Lineages of Despotism* | Customary court ratio and postcolonial bureaucratic capacity data. | Provided the quantitative dataset ($N=33, r=-0.83$) for Volume I's legal substrate theorem. |
+| **Daron Acemoglu & James Robinson (2012)** *Why Nations Fail* | Inclusive vs. extractive institutional dichotomy. | **REFUTED**: Postcolonial capacity depends on structural substrates and administrative depth, not abstract inclusivity (e.g. extractive direct rule in Singapore left high capacity; benign indirect rule in Nigeria left weak capacity). |
+| **Samuel Huntington (1968) & Francis Fukuyama (2011)** *Political Order* | Political institutionalization vs. decay. | **EXTENDED**: Formulates the *Consociational Arbitrator Trap* (international protectorates like Bosnia/Kosovo achieving institutionalization without domestic accountability). |
