@@ -93,14 +93,48 @@ the-floor-that-does-not-rise/
 │   └── 09_make_figures.py              # Generates publication figures (PNG/PDF)
 ├── tests/
 │   └── test_pipeline.py                # 6 automated validation tests (pytest)
-└── outputs/
-    ├── The_Floor_That_Does_Not_Rise_REWRITTEN_FINAL.docx # Completely rewritten manuscript (ALRP canon)
-    ├── research_data_audit.pdf          # Full research data audit report
-    ├── all_figures.zip                 # All publication figures
-    ├── tables/                         # Generated CSV and LaTeX tables
-    ├── figures/                        # High-resolution charts (Housing, AI, Cyber)
-    └── paper_insertions_final/         # Machine-readable textual summaries
+├── outputs/
+│   ├── The_Floor_That_Does_Not_Rise_REWRITTEN_FINAL.docx # Completely rewritten manuscript
+│   ├── research_data_audit.pdf          # Full research data audit report
+│   ├── all_figures.zip                 # All publication figures
+│   ├── tables/                         # Generated CSV and LaTeX tables
+│   ├── figures/                        # High-resolution charts (Housing, AI, Cyber)
+│   └── paper_insertions_final/         # Machine-readable textual summaries
+└── knowledge_graph/                    # Zotero-Obsidian Citation Network & Dialectic Mindmap
+    ├── 00_Master_Mindmap_and_Cite_Network.md # Master Mermaid mindmap & topological index
+    ├── 01_NotebookLM_Interrogation_Dossier.md# Grounding protocol, 5 Epistemic Gates, 20 Task Classes
+    ├── thinkers/                       # Dialectic cards (Foundational Pillars vs. Refuted Fallacies)
+    ├── monographs/                     # Author's 6 foundational monographs (Zenodo DOIs & Zotero keys)
+    └── claims/                         # Core theorems, queueing thresholds & Rule Zero invariant
 ```
+
+---
+
+## 🧠 Zotero-Obsidian Citation Network & Dialectic Mindmap
+
+This repository includes a publication-grade, fully interconnected **Zotero-Obsidian Citation Network** located in [`knowledge_graph/`](knowledge_graph/00_Master_Mindmap_and_Cite_Network.md), which can be opened directly as an Obsidian Vault or navigated via GitHub markdown.
+
+### Dialectical Structure:
+1. **Foundational & Mathematical Pillars**:
+   - **Ward Whitt (2002)**: Heavy-traffic limits, $M_t/G/1$ approximations, and non-stationary backlog divergence.
+   - **Leonard Kleinrock (1975) & William Massey (1985)**: The workload process $V(t)$ and time-dependent arrival queues.
+   - **Philippe Aghion & Peter Howitt (1992)**: Creative destruction and non-equilibrium growth microfoundations.
+   - **Fred Hirsch (1977)**: Positional goods and the social limits to growth.
+   - **Nick Bostrom (2002)**: Differential technological development and the unilateral acceleration dilemma.
+   - **Leigh Van Valen (1973)**: The Red Queen hypothesis adapted to asymmetric technological competition.
+   - **Raj Chetty et al. (2016) & David Cutler et al. (2006)**: Empirical documentation of income-stratified mortality divergence.
+2. **Refuted Counter-Paradigms**:
+   - **Everett Rogers (2003) & Donald Berwick (2003)**: Refuting the *Diffusion Convergence Fallacy* (the dogma of inevitable S-curve democratization).
+   - **Ray Kurzweil & Peter Diamandis**: Refuting *The Smartphone Fallacy* (conflating 2D silicon scaling with live human biological time).
+   - **In Silico Trialists & Digital Twin Proponents**: Exposing the fallacy that neural simulations can replace live human longitudinal Phase III endpoints.
+   - **Patent Cliff & Biosimilar Commoditization Theorists**: Proving that generic price collapses cannot close relative gaps against an exponential frontier.
+3. **Author's Foundational Monograph Series (Gia Bao Huynh 2026)**:
+   - *Till Death Tear Us Apart* (DOI: `10.5281/zenodo.20777406`, Zotero: `GI2ASFMG`)
+   - *The Unfalsifiable Critic* (DOI: `10.5281/zenodo.20776160`, Zotero: `TDKDGZHA`)
+   - *The Biological Zero-Day Mechanism* (DOI: `10.5281/zenodo.20780733`, Zotero: `EIKTRBGH`)
+   - *The Closing Window* (DOI: `10.5281/zenodo.20785465`, Zotero: `FFWLB6YX`)
+   - *The Two Biases That Blind Governance* (DOI: `10.5281/zenodo.20792546`, Zotero: `GUNS4C6I`)
+   - *The Floor That Does Not Rise* (DOI: `10.5281/zenodo.21335914`)
 
 ---
 

@@ -109,7 +109,7 @@ if hf_token:
                 "sync_*.py",
                 "alrp_context_dump.txt"
             ],
-            commit_message="feat: Complete rewrite of The Floor That Does Not Rise grounded in ALRP canon (13 queueing models, 4 bottleneck floors, Rule Zero)"
+            commit_message="feat: Add Zotero-Obsidian Citation Network & Dialectic Mindmap (NotebookLM canon, 10 thinker nodes, 6 author monographs)"
         )
         print(f"[✓] Successfully synced to Hugging Face Dataset: https://huggingface.co/datasets/{hf_repo_id}")
     except Exception as e:
