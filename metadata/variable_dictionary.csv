@@ -1,0 +1,41 @@
+variable_name,domain,description,unit,formula,status_label,notes
+date,housing,Observation date (first of month),YYYY-MM-DD,none,observed,Monthly frequency
+permits,housing,New Privately-Owned Housing Units Authorized in Permit-Issuing Places,Thousands of Units,none,observed,SAAR from FRED PERMIT
+starts,housing,New Privately-Owned Housing Units Started,Thousands of Units,none,observed,SAAR from FRED HOUST
+completions,housing,New Privately-Owned Housing Units Completed,Thousands of Units,none,observed,SAAR from FRED COMPUTSA
+permits_flow,housing,Monthly permit flow (unannualized),Thousands of Units,permits / 12,derived,Constructed with explicit /12 transformation
+starts_flow,housing,Monthly housing starts flow (unannualized),Thousands of Units,starts / 12,derived,Constructed with explicit /12 transformation
+completions_flow,housing,Monthly housing completions flow (unannualized),Thousands of Units,completions / 12,derived,Constructed with explicit /12 transformation
+H_t,housing,Cumulative permit-to-completion flow proxy,Thousands of Units,H_{t-1} + P_t - C_t,derived,Subject to mechanical drift; cumulative proxy only
+B_t,housing,Permit-to-completion monthly flow difference,Thousands of Units,P_t - C_t,derived,Key stationary backlog flow gap
+Q_t,housing,Starts-to-completion monthly flow difference,Thousands of Units,S_t - C_t,derived,Construction pipeline flow difference
+R_t,housing,Completion-to-permit throughput ratio,Ratio,C_t / P_t,derived,Diffusion throughput proxy
+K_t,housing,Start-to-permit translation ratio,Ratio,S_t / P_t,derived,Pipeline entry efficiency
+model,ai_metr,AI model identifier,String,none,observed,Canonical model name in METR evaluation runs
+model_alias,ai_metr,AI model variant / alias,String,none,observed,Reported model alias in runs.jsonl
+task_id,ai_metr,METR task identifier,String,none,observed,Unique task identifier
+task_family,ai_metr,METR task family group,String,none,observed,Clustering level for bootstrap
+human_minutes,ai_metr,Human baseline task completion duration,Minutes,none,observed,Reported human completion baseline
+log_human_minutes,ai_metr,Log2 of human baseline duration,log2(minutes),log2(human_minutes),derived,Metric scale for task complexity
+score_binarized,ai_metr,Binary task success indicator,"Binary {0,1}",none,observed,Thresholded task completion success
+score_cont,ai_metr,Continuous task score,"Float [0,1]",none,observed,Continuous task evaluation score
+invsqrt_task_weight,ai_metr,Inverse square-root task weight,Float,none,observed,METR weighting factor for sampling balance
+T_50,ai_metr,Model 50% task horizon duration,Minutes,2^(-alpha_m / beta_m),derived,Fitted duration at which model achieves 50% probability
+T_80,ai_metr,Model 80% task horizon duration,Minutes,2^((logit(0.8) - alpha_m) / beta_m),derived,Fitted duration at which model achieves 80% probability
+doubling_time,ai_metr,Capability horizon doubling time,Months,1 / b,derived,Estimated from log2(T_50) linear growth fit
+residual_run_length,ai_metr,Length of consecutive residual sign runs,Count,none,derived,Diagnostic for long-run trend curvature validity
+campaign,anthropic,Attributed distillation campaign name,String,none,reported_attribution,Identified in Anthropic disclosures
+reported_exchanges,anthropic,Reported query-response exchange count,Count,none,reported_attribution,Extraction-input volume
+reported_accounts,anthropic,Reported accounts involved in campaign,Count,none,reported_attribution,Distillation infrastructure count
+lambda_obs,anthropic,Observed extraction input rate,Exchanges / day,reported_exchanges / observation_days,derived,Input activity rate (NOT throughput mu)
+mu_eff,anthropic,Effective capability throughput,Units / day,(r * u * v * lambda_obs) / h,scenario,Evaluated over explicit parameter sensitivity grid
+biomarker_effect,longevity,Change in biological aging proxy,Standardized Effect (Cohen d or % change),none,observed,Reported in CALERIE randomized trial
+lifespan_extension,longevity,Demonstrated human lifespan extension,Years,none,unresolved,Not directly observable in biomarker trials
+intervention_cost_monthly,longevity,Monthly retail or clinic intervention cost,USD,none,observed,Market price observation
+A_i_price,longevity,Price affordability access index,"Index [0,1]",1 - (P_i / P_i^*),derived,Affordability relative to median income threshold P_i^*
+annual_cve_inflow,cybersecurity,Annual new CVE records published,Count,none,observed,Aggregated from CVE Project repository
+annual_kev_inflow,cybersecurity,Annual KEV records added,Count,none,observed,Aggregated from CISA KEV catalog
+cna_count,cybersecurity,Active CVE Numbering Authorities,Count,none,observed,Authoritative assigning entities
+cna_hhi,cybersecurity,CNA assigning concentration,"Index [0,10000]",sum(s_i^2),derived,Herfindahl-Hirschman Index of CNA assignment shares
+remediation_deadline_days,cybersecurity,CISA KEV mandatory remediation window,Days,none,observed,Federal policy requirement
+remediation_realized_rate,cybersecurity,Empirical remediation rate within deadline,Percentage,none,unresolved,Administrative deadline != realized compliance

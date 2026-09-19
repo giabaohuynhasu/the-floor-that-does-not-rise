@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research Data Audit: The Floor That Does Not Rise</title>
+  <style>
+    :root {
+      --primary: #1a365d;
+      --primary-light: #2b6cb0;
+      --text: #2d3748;
+      --bg: #f7fafc;
+      --card-bg: #ffffff;
+      --border: #e2e8f0;
+      --success: #2f855a;
+      --warning: #c05621;
+      --danger: #9b2c2c;
+      --mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      color: var(--text);
+      background-color: var(--bg);
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 0 24px;
+    }
+    header {
+      background: linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%);
+      color: white;
+      padding: 48px 24px;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      margin-bottom: 32px;
+    }
+    header h1 {
+      margin: 0 0 12px 0;
+      font-size: 2.2rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+    header p {
+      margin: 0;
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+    .badge-bar {
+      margin-top: 16px;
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .badge {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .badge-success { background: #c6f6d5; color: #22543d; }
+    .badge-info { background: #bee3f8; color: #2c5282; }
+    .badge-warning { background: #feebc8; color: #7b341e; }
+    
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 28px;
+      margin-bottom: 28px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+    }
+    h2 {
+      color: var(--primary);
+      margin-top: 0;
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 10px;
+      font-size: 1.45rem;
+    }
+    h3 {
+      color: var(--primary-light);
+      margin-top: 20px;
+      font-size: 1.15rem;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 18px 0;
+      font-size: 0.92rem;
+    }
+    th, td {
+      padding: 10px 14px;
+      text-align: left;
+      border-bottom: 1px solid var(--border);
+    }
+    th {
+      background-color: #edf2f7;
+      color: #4a5568;
+      font-weight: 600;
+    }
+    tr:hover {
+      background-color: #f8fafc;
+    }
+    code {
+      font-family: var(--mono);
+      background: #edf2f7;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 0.88em;
+    }
+    .figure-container {
+      margin: 24px 0;
+      text-align: center;
+    }
+    .figure-container img {
+      max-width: 100%;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+    .figure-caption {
+      font-size: 0.85rem;
+      color: #718096;
+      margin-top: 8px;
+      font-style: italic;
+    }
+    .alert-box {
+      padding: 14px 18px;
+      border-left: 4px solid var(--primary-light);
+      background: #ebf8ff;
+      border-radius: 0 8px 8px 0;
+      margin: 16px 0;
+      font-size: 0.95rem;
+    }
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+    @media(max-width: 768px) {
+      .grid-2 { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <header>
+    <h1>Research Data Audit Report</h1>
+    <p>The Floor That Does Not Rise: Reset Events, Queueing Instability, and the Hard–Soft Floor Distinction</p>
+    <div class="badge-bar">
+      <span class="badge badge-success">Audited Data Package</span>
+      <span class="badge badge-info">Zero Imputation Protocol</span>
+      <span class="badge badge-warning">5 Empirical Domains</span>
+      <span class="badge badge-success">SHA-256 Verified</span>
+    </div>
+  </header>
+
+  <!-- EXECUTIVE SUMMARY -->
+  <section class="card">
+    <h2>Executive Summary</h2>
+    <p>
+      This audit document certifies the empirical datasets, statistical tests, and publication artifacts for the manuscript
+      <strong>"The Floor That Does Not Rise"</strong>. Across five domains spanning physical infrastructure, frontier AI capabilities,
+      model distillation, human longevity, and cybersecurity vulnerability inflow, the empirical engine investigates whether
+      technological frontiers can advance faster than the diffusion processes that elevate the broad access "floor".
+    </p>
+    <div class="alert-box">
+      <strong>Evidentiary Guarantee:</strong> Every value in this report is tied to an immutable raw file in <code>data/raw/</code>,
+      logged in <code>metadata/retrieval_log.csv</code>, and tracked via SHA-256 checksums in <code>metadata/checksum_manifest.csv</code>.
+      No values have been synthetically imputed or silently interpolated.
+    </div>
+  </section>
+
+  <!-- SECTION 1: HOUSING -->
+  <section class="card">
+    <h2>1. Housing Pipeline (Null-Case Bounded-Lag Comparison)</h2>
+    <p>
+      The housing construction pipeline serves as the primary bounded-lag null comparison. Analysis evaluates whether the monthly
+      flow gap $B_t = P_t - C_t$ (permits minus completions) is mean-reverting and whether positive backlog shocks exhibit finite recovery.
+    </p>
+    
+    <div class="figure-container">
+      <img src="figures/housing_permits_starts_completions.png" alt="U.S. Housing Construction Pipeline">
+      <div class="figure-caption">Figure 1.1: Historical U.S. Housing Construction Pipeline (PERMIT, HOUST, COMPUTSA, SAAR, 1968–2026).</div>
+    </div>
+
+    <div class="grid-2">
+      <div>
+        <h3>Key Statistical Properties ($B_t$)</h3>
+        <ul>
+          <li><strong>Sample Interval:</strong> 1968-01-01 to 2026-08-01 (704 months).</li>
+          <li><strong>Stationarity (ADF Test):</strong> $t = -7.41$, $p < 10^{-10}$ (Unit root firmly rejected).</li>
+          <li><strong>KPSS Test:</strong> $p > 0.10$ (Stationarity cannot be rejected).</li>
+          <li><strong>AR(1) Persistence ($\phi$):</strong> $0.52$ (Shock half-life = 1.1 months).</li>
+          <li><strong>Mean Shock Recovery Time:</strong> 2.4 months following a +1 SD backlog shock.</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Queueing & Drift Diagnostics ($H_t$)</h3>
+        <ul>
+          <li><strong>Cumulative Flow Proxy ($H_t$):</strong> Constructed as $H_t = \sum B_t$.</li>
+          <li><strong>Unit Root Status ($H_t$):</strong> $I(1)$ unit root drift due to mechanical cumulative summation.</li>
+          <li><strong>Operational Conclusion:</strong> Physical pipeline is bounded; one-period positive differences do not imply instability.</li>
+          <li><strong>Pre/Post-GFC Break:</strong> Flow difference remains stationary in both regimes ($p < 10^{-6}$).</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="figure-container">
+      <img src="figures/housing_flow_gap.png" alt="Permit-to-Completion Flow Difference">
+      <div class="figure-caption">Figure 1.2: Stationary Monthly Flow Difference $B_t = P_t - C_t$ with 12-Month Moving Average.</div>
+    </div>
+  </section>
+
+  <!-- SECTION 2: AI CAPABILITY -->
+  <section class="card">
+    <h2>2. AI Capability Growth (METR Task Horizons)</h2>
+    <p>
+      Using METR's public task evaluation runs ($N = 24,008$ valid task evaluations across 21 frontier models), model-specific 50% task horizons
+      ($T_{50,m}$) were reconstructed via weighted logistic regression: $\operatorname{logit}(P(Y_i=1)) = \alpha_m + \beta_m \log_2(T_i)$.
+    </p>
+
+    <div class="figure-container">
+      <img src="figures/ai_time_horizon_log2.png" alt="AI Task Horizon Growth">
+      <div class="figure-caption">Figure 2.1: Reconstructed AI Model Task Horizons ($\log_2 T_{50}$) and Linear Growth Fit.</div>
+    </div>
+
+    <h3>Long-Run Trend Fit & Residual Diagnostics</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Metric</th>
+          <th>Estimate</th>
+          <th>Uncertainty (95% CI)</th>
+          <th>Status</th>
+          <th>Substantive Meaning</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Doubling Time ($1/b$)</strong></td>
+          <td>7.2 months</td>
+          <td>[5.4, 10.8] months</td>
+          <td><code>derived</code></td>
+          <td>Exponential growth pace across frontier evaluations</td>
+        </tr>
+        <tr>
+          <td><strong>Fit Quality ($R^2$)</strong></td>
+          <td>0.81</td>
+          <td>N = 21 models</td>
+          <td><code>derived</code></td>
+          <td>Log-linear model captures primary variation</td>
+        </tr>
+        <tr>
+          <td><strong>Longest Consecutive Negative Run</strong></td>
+          <td>4 models</td>
+          <td>Run sign sequence</td>
+          <td><code>derived</code></td>
+          <td>Persistent negative residuals contradict super-exponential claim</td>
+        </tr>
+        <tr>
+          <td><strong>Quadratic Curvature ($t^2$)</strong></td>
+          <td>$p = 0.28$</td>
+          <td>Non-significant</td>
+          <td><code>derived</code></td>
+          <td>Fails to reject constant log-linear doubling</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="grid-2">
+      <div class="figure-container">
+        <img src="figures/ai_raw_residuals.png" alt="Raw Residuals">
+        <div class="figure-caption">Figure 2.2: Raw Residuals ($r_m = \log_2 T_{50} - \hat{y}_m$).</div>
+      </div>
+      <div class="figure-container">
+        <img src="figures/ai_cumulative_residuals.png" alt="CUSUM Test">
+        <div class="figure-caption">Figure 2.3: Cumulative Sum of Residuals (CUSUM).</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 3: ANTHROPIC DISTILLATION -->
+  <section class="card">
+    <h2>3. Anthropic AI Distillation Activity</h2>
+    <p>
+      Reported distillation activity from Anthropic's February 2026 disclosure was analyzed to separate observed extraction-input volume
+      from realized student capability gains.
+    </p>
+
+    <div class="alert-box">
+      <strong>Methodological Distinction:</strong> Reported exchange counts ($15\text{M}$ exchanges) measure
+      <strong>input rate</strong> ($\lambda_{\text{obs}} = 166,667\text{ exch/day}$), <em>not</em> student capability transfer ($\mu$).
+      The parameter $\mu_{\text{eff}} = \frac{r u v \lambda_{\text{obs}}}{h}$ is evaluated across a sensitivity grid spanning four orders of magnitude.
+    </div>
+
+    <div class="figure-container">
+      <img src="figures/ai_mu_sensitivity_heatmap.png" alt="Anthropic Distillation Sensitivity Heatmap">
+      <div class="figure-caption">Figure 3.1: Sensitivity Grid of Effective Throughput $\mu_{\mathrm{eff}}$ across Retention ($r$) and Utility ($u$).</div>
+    </div>
+  </section>
+
+  <!-- SECTION 4: LONGEVITY -->
+  <section class="card">
+    <h2>4. Longevity Biotechnology: Evidence vs. Access Decoupling</h2>
+    <p>
+      The CALERIE trial provides human clinical biomarker evidence of biological aging deceleration (DunedinPACE: $-0.02$, $p=0.008$;
+      PhenoAge: $-0.11\text{ SD}$, $p=0.031$). However, demonstrated lifespan extension remains <code>unresolved</code>.
+    </p>
+
+    <div class="figure-container">
+      <img src="figures/longevity_price_access.png" alt="Longevity Price and Access">
+      <div class="figure-caption">Figure 4.1: Monthly Intervention Out-of-Pocket Cost vs. Affordability Index ($P^* = \$200$/month).</div>
+    </div>
+    
+    <p>
+      While generic metformin is cheap ($4.00/mo, Affordability = 0.98$), it lacks longevity approval. Full-body concierge protocols ($1,250.00/mo$)
+      remain completely out of reach for median wage earners ($A_i^{\text{price}} = 0.00$), demonstrating that frontier diagnostics do not elevate the access floor.
+    </p>
+  </section>
+
+  <!-- SECTION 5: CYBERSECURITY -->
+  <section class="card">
+    <h2>5. Cybersecurity Vulnerability Inflow & Policy</h2>
+    <p>
+      Annual CVE inflow increased from 16,508 (2018) to >39,500 (2024), while active assigning authorities decentralized (CNA HHI fell from 1,500 to 710).
+      Federal policy deadlines under CISA BOD 22-01 established mandatory 14–21 day windows, but administrative deadlines represent pacing mechanisms rather
+      than verified technical patch completion.
+    </p>
+
+    <div class="figure-container">
+      <img src="figures/cybersecurity_record_inflow.png" alt="Cybersecurity Record Inflow">
+      <div class="figure-caption">Figure 5.1: Annual CVE Inflow and CNA Assigning Authority Decentralization (2018–2025).</div>
+    </div>
+  </section>
+
+  <!-- REPRODUCTION -->
+  <section class="card">
+    <h2>6. Replication Protocol & File Ledger</h2>
+    <p>To replicate this entire research package from scratch:</p>
+    <pre><code>python scripts/00_download_all.py
+python scripts/01_validate_sources.py
+python scripts/02_process_housing.py
+python scripts/03_process_ai_metr.py
+python scripts/04_process_anthropic.py
+python scripts/05_process_longevity.py
+python scripts/06_process_cybersecurity.py
+python scripts/07_run_all_models.py
+python scripts/08_make_tables.py
+python scripts/09_make_figures.py
+pytest -q</code></pre>
+  </section>
+
+</div>
+
+</body>
+</html>

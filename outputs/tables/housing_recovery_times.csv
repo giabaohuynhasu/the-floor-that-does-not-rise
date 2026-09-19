@@ -1,0 +1,5 @@
+metric,value,interpretation,evidentiary_status
+AR(1) persistence parameter (phi),0.8726394450269022,Moderate persistence,derived
+Half-life of flow gap shocks (months),5.087960481892903,Shocks dissipate by 50% in approximately 5.1 months,derived
+Mean recovery time from +1 SD shock to mean (months),13.071428571428571,Empirical positive backlog shocks return to mean within 13.1 months on average,derived
+Max recovery time observed (months),50.0,Longest observed recovery episode across the full historical window,derived

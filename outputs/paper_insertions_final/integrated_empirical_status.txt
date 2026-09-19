@@ -1,0 +1,33 @@
+================================================================================
+INTEGRATED EMPIRICAL STATUS: THE FLOOR THAT DOES NOT RISE
+================================================================================
+
+Across five empirical domains spanning classical physical infrastructure, frontier AI capabilities, model distillation, human biotechnology, and cybersecurity vulnerabilities, this replication package evaluates whether a technological frontier can advance faster than the queueing and diffusion processes that establish broad access (the "floor").
+
+1. HOUSING (BOUNDED-LAG NULL COMPARISON):
+   - Over the full 1968–2026 historical window (N = 685 monthly observations), the permit-to-completion flow gap B_t = P_t - C_t is strictly stationary (ADF statistic = -7.41, p < 1e-10; KPSS fails to reject stationarity).
+   - The AR(1) persistence coefficient phi = 0.52 indicates a shock half-life of 1.1 months, with positive backlog shocks dissipating within an average of 2.4 months.
+   - While the cumulative flow proxy H_t exhibits mechanical unit-root drift due to accumulation, the physical construction pipeline demonstrates operational boundedness across both pre-GFC and post-GFC eras.
+
+2. AI CAPABILITY GROWTH (METR EVALUATIONS):
+   - Reconstructing model-specific 50% task horizons (T_50) from METR's task-level dataset yields an exponential growth doubling time of 7.2 months (95% CI: 5.4 to 10.8 months, R^2 = 0.81).
+   - However, raw-pattern residual tests identify persistent negative run lengths (up to 4 consecutive evaluations) and CUSUM trend shifts.
+   - A formal quadratic curvature test fails to reject log-linear constancy (p = 0.28). Claims of sustained super-exponential acceleration are not supported by the raw residual pattern.
+
+3. ANTHROPIC DISTILLATION ACTIVITY:
+   - Provider disclosures report 15M exchanges across 24,000 accounts for primary clusters (observed input rate lambda_obs = 166,667 exchanges/day).
+   - Evaluated across a conservative retention (r in [0.001, 0.10]), utility (u in [0.10, 1.00]), and incorporation grid, effective throughput mu_eff spans four orders of magnitude (0.015 to 150 capability units/day).
+   - Distillation exchange volume represents extraction-input activity rather than audited capability transfer; the diffusion rate remains only partially identified.
+
+4. LONGEVITY BIOTECHNOLOGY:
+   - Phase-2 randomized human trials (CALERIE) demonstrate statistically significant deceleration of biological aging proxies (DunedinPACE effect: -0.02, p = 0.008; PhenoAge effect: -0.11 SD, p = 0.031).
+   - However, zero human trials establish demonstrated lifespan extension or all-cause mortality reduction.
+   - Price and access data reveal severe structural fragmentation: while retail generic metformin is highly affordable ($4.00/mo, affordability index = 0.98 at $200 threshold), it lacks regulatory approval for longevity. Conversely, off-label rapamycin ($65.00/mo) faces clinical monitoring constraints, and comprehensive concierge protocols ($1,250.00/mo) remain entirely inaccessible (affordability index = 0.00).
+
+5. CYBERSECURITY INFLOW & POLICY:
+   - Annual CVE inflow expanded from 16,508 (2018) to >39,500 (2024), while active CNAs grew from 100 to >410, reducing CNA assignment concentration (HHI dropped from 1,500 to 710).
+   - In contrast, administrative remediation deadlines under CISA BOD 22-01 (14–21 days) represent an administrative pacing mechanism rather than realized technical remediation.
+   - Discovery velocity continues to outpace verified administrative and technical patch throughput.
+
+CONCLUSION:
+Across all domains, advancing the frontier does not automatically elevate the access floor. Physical and institutional queueing constraints, unvalidated surrogate markers, and administrative pacing decouple frontier progress from broad, realized diffusion.

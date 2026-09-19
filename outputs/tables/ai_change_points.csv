@@ -1,0 +1,3 @@
+model_specification,curvature_coefficient_c,curvature_p_value,statistically_significant_acceleration,notes,evidentiary_status,first_half_slope,second_half_slope,slope_ratio_second_to_first
+Quadratic Curvature Test (t^2),0.004296689739676523,0.004015596241661085,True,Positive significant c indicates acceleration; non-significant indicates log-linear constancy.,derived,,,
+Sub-period Slope Comparison,,,,Ratio near 1.0 indicates stable doubling pace.,derived,0.18691986890124807,0.23601757988249522,1.2626671593012193

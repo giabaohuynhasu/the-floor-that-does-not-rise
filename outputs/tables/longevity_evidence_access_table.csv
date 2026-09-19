@@ -1,0 +1,7 @@
+domain_element,evidence_level,quantitative_effect,access_cost_monthly,floor_status,evidentiary_status
+Biomarker: DunedinPACE (epigenetic pace of aging),biological aging proxy,"Effect: -0.02 (95% CI: -0.035 to -0.005, p=0.008)",N/A (Clinical trial protocol),Candidate soft biomarker; not hard lifespan extension,observed
+Biomarker: PhenoAge (clinical blood chemistry biological age),biological aging proxy,"Effect: -0.11 (95% CI: -0.21 to -0.01, p=0.031)",N/A (Clinical trial protocol),Candidate soft biomarker; not hard lifespan extension,observed
+Biomarker: GrimAge (DNAm mortality predictor),exploratory marker,"Effect: -0.04 (95% CI: -0.15 to 0.07, p=0.48)",N/A (Clinical trial protocol),Candidate soft biomarker; not hard lifespan extension,observed
+Intervention: Generic Metformin (Retail generic pharmaceutical),Observational association / off-label (TAME pending),Price: $4.00/mo (Affordability @ $200: 0.98),$4.00,Outside validated longevity floor (off-label / monitoring binding),observed
+Intervention: Off-label Rapamycin (Sirolimus) (Specialty pharmacy prescription),Preclinical animal extension; small human safety trials,Price: $65.00/mo (Affordability @ $200: 0.68),$65.00,Outside validated longevity floor (off-label / monitoring binding),observed
+Intervention: Concierge Longevity Clinic Protocol (Private concierge medicine),Screening and surrogate biomarker optimization,Price: $1250.00/mo (Affordability @ $200: 0.00),$1250.00,Constrained by extreme price barrier,observed

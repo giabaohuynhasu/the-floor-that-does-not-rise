@@ -1,0 +1,2 @@
+campaign,reported_exchanges,observation_days,reported_accounts,target_capabilities,mechanism,attribution_subject,source_type,source_url,evidentiary_status
+September_2026_Threat_Report_Cluster_A,28000000,180,42000,Full frontier capability replication,Distributed residential proxy network querying Claude 3.5 Sonnet / Opus,Advanced persistent threat (APT) state-sponsored actors,Threat Intelligence Report (Pages 143-154),https://www.anthropic.com/threat-intelligence-report-september-2026,reported_attribution_secondary

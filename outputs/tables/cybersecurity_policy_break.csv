@@ -1,0 +1,3 @@
+period,mean_annual_cve,mean_annual_kev,mean_active_cnas,mean_hhi,policy_status,evidentiary_status
+Pre-BOD 22-01 Policy (<= 2020),17389.666666666668,0.0,123.33333333333333,1410.0,Voluntary disclosure & remediation window,derived
+Post-BOD 22-01 Policy (>= 2021),31156.6,296.8,331.0,868.0,Mandatory federal remediation deadlines (typically 14-21 days),derived

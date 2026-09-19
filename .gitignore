@@ -1,0 +1,32 @@
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache & tests
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# External cloned submodules/repos
+data/raw/ai_metr/eval-analysis-public/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary / Scratch scripts
+test_*.py
+read_paper.py
+send_gemini_spark_report.py
+send_raw_text_json_report_to_asu.py
+push_to_hub_and_github.py

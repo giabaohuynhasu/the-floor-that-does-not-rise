@@ -1,0 +1,6 @@
+series,sample,n_obs,adf_statistic,adf_p_value,adf_lags_used,adf_reject_unit_root_5pct,kpss_statistic,kpss_p_value,kpss_reject_stationarity_5pct,stationary_conclusion,evidentiary_status
+B_t (Permits - Completions monthly flow gap),Full sample,704,-4.418186026771084,0.00027559092544630665,20,True,0.9406721914849363,0.01,True,Inconclusive / Mixed,derived
+Q_t (Starts - Completions monthly flow gap),Full sample,704,-5.473633024210984,2.3682194386958956e-06,2,True,0.05572751007266574,0.1,False,Stationary (I(0)),derived
+H_t (Cumulative flow proxy),Full sample,704,-1.1551360523706826,0.6925914018979838,16,False,0.8691138724019899,0.01,True,Unit Root (I(1)),derived
+B_t (Permits - Completions),Excluding COVID (2020-2021),681,-4.890853382994701,3.633257729706552e-05,1,True,0.7827116204593106,0.01,True,Inconclusive / Mixed,derived
+H_t (Cumulative flow proxy),Excluding COVID (2020-2021),681,-1.2145487479663872,0.667306105116282,6,False,0.8149305145074834,0.01,True,Unit Root (I(1)),derived

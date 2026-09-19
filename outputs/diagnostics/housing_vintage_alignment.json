@@ -1,0 +1,41 @@
+{
+  "series_metadata": {
+    "PERMIT": {
+      "start": "1960-01-01",
+      "end": "2026-08-01",
+      "total_obs": 800,
+      "unit": "Thousands of Units, SAAR"
+    },
+    "HOUST": {
+      "start": "1959-01-01",
+      "end": "2026-08-01",
+      "total_obs": 812,
+      "unit": "Thousands of Units, SAAR"
+    },
+    "COMPUTSA": {
+      "start": "1968-01-01",
+      "end": "2026-08-01",
+      "total_obs": 704,
+      "unit": "Thousands of Units, SAAR"
+    }
+  },
+  "overlapping_interval": {
+    "start": "1968-01-01",
+    "end": "2026-08-01",
+    "common_months_count": 704
+  },
+  "transformation_rules": {
+    "monthly_flow": "SAAR / 12",
+    "cumulative_flow_proxy": "H_t = H_{t-1} + P_t - C_t (anchored at 0 at start of common interval)",
+    "flow_gap_B_t": "P_t - C_t",
+    "pipeline_gap_Q_t": "S_t - C_t",
+    "throughput_ratio_R_t": "C_t / P_t",
+    "translation_ratio_K_t": "S_t / P_t"
+  },
+  "evidentiary_status": {
+    "permits": "observed",
+    "starts": "observed",
+    "completions": "observed",
+    "flows_and_proxies": "derived"
+  }
+}

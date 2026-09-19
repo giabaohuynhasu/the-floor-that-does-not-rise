@@ -1,0 +1,360 @@
+{
+  "inspection_timestamp_utc": "2026-09-19T07:25:56.522944+00:00",
+  "files": {
+    "time-horizon-1-1_runs.jsonl": {
+      "total_lines": 24008,
+      "malformed_lines": 0,
+      "unique_models_count": 21,
+      "unique_models": [
+        "claude_3_5_sonnet_20240620_inspect",
+        "claude_3_5_sonnet_20241022_inspect",
+        "claude_3_7_sonnet_inspect",
+        "claude_3_opus_inspect",
+        "claude_4_1_opus_inspect",
+        "claude_4_opus_inspect",
+        "claude_opus_4_5_inspect",
+        "claude_opus_4_6_inspect",
+        "flamingo_2",
+        "gemini_3_pro",
+        "gpt_4",
+        "gpt_4_1106_inspect",
+        "gpt_4_turbo_inspect",
+        "gpt_4o_inspect",
+        "gpt_5_1_codex_max_inspect",
+        "gpt_5_2",
+        "gpt_5_2025_08_07_inspect",
+        "human",
+        "o1_inspect",
+        "o1_preview",
+        "o3_inspect"
+      ],
+      "unique_aliases_count": 21,
+      "unique_aliases": [
+        "Claude 3 Opus (Inspect)",
+        "Claude 3.5 Sonnet (New) (Inspect)",
+        "Claude 3.5 Sonnet (Old) (Inspect)",
+        "Claude 3.7 Sonnet (Inspect)",
+        "Claude 4 Opus (Inspect)",
+        "Claude 4.1 Opus (Inspect)",
+        "Claude Opus 4.5 (Inspect)",
+        "Claude Opus 4.6 (Inspect)",
+        "GPT-4 0314",
+        "GPT-4 1106 (Inspect)",
+        "GPT-4 Turbo (Inspect)",
+        "GPT-4o (Inspect)",
+        "GPT-5 (Inspect)",
+        "GPT-5.1-Codex-Max (Inspect)",
+        "GPT-5.2",
+        "GPT-5.3-Codex",
+        "Gemini 3 Pro",
+        "human",
+        "o1 (Inspect)",
+        "o1-preview",
+        "o3 (Inspect)"
+      ],
+      "unique_task_families_count": 79,
+      "unique_tasks_count": 228,
+      "evaluation_dates_count": 0,
+      "evaluation_date_range": [],
+      "missing_human_duration_count": 0,
+      "missing_scores_count": 0,
+      "unique_keys": [
+        "alias",
+        "cloned",
+        "completed_at",
+        "equal_task_weight",
+        "fatal_error_from",
+        "generation_cost",
+        "human_cost",
+        "human_minutes",
+        "human_score",
+        "human_source",
+        "invsqrt_task_weight",
+        "model",
+        "run_id",
+        "scaffold",
+        "score_binarized",
+        "score_cont",
+        "started_at",
+        "task_family",
+        "task_id",
+        "task_source",
+        "task_version",
+        "time_limit",
+        "tokens_count"
+      ],
+      "field_data_types": {
+        "task_id": [
+          "str"
+        ],
+        "task_family": [
+          "str"
+        ],
+        "run_id": [
+          "str",
+          "int"
+        ],
+        "alias": [
+          "str"
+        ],
+        "model": [
+          "str"
+        ],
+        "score_cont": [
+          "float"
+        ],
+        "score_binarized": [
+          "int"
+        ],
+        "fatal_error_from": [
+          "str",
+          "NoneType"
+        ],
+        "human_minutes": [
+          "float"
+        ],
+        "human_score": [
+          "float"
+        ],
+        "human_source": [
+          "str"
+        ],
+        "task_source": [
+          "str"
+        ],
+        "generation_cost": [
+          "NoneType",
+          "float"
+        ],
+        "human_cost": [
+          "float"
+        ],
+        "time_limit": [
+          "NoneType",
+          "float"
+        ],
+        "started_at": [
+          "NoneType",
+          "float"
+        ],
+        "completed_at": [
+          "NoneType",
+          "float"
+        ],
+        "task_version": [
+          "str",
+          "NoneType"
+        ],
+        "tokens_count": [
+          "NoneType",
+          "float"
+        ],
+        "cloned": [
+          "NoneType",
+          "float"
+        ],
+        "scaffold": [
+          "str",
+          "NoneType"
+        ],
+        "equal_task_weight": [
+          "float"
+        ],
+        "invsqrt_task_weight": [
+          "float"
+        ]
+      }
+    },
+    "time-horizon-1-0_runs.jsonl": {
+      "total_lines": 41629,
+      "malformed_lines": 0,
+      "unique_models_count": 34,
+      "unique_models": [
+        "claude_3_5_sonnet",
+        "claude_3_5_sonnet_20241022",
+        "claude_3_7_sonnet",
+        "claude_3_opus",
+        "claude_4_1_opus",
+        "claude_4_opus",
+        "claude_4_sonnet",
+        "claude_opus_4_5",
+        "claude_sonnet_4_5",
+        "davinci_002",
+        "deepseek_r1",
+        "deepseek_r1_0528",
+        "deepseek_v3",
+        "deepseek_v3_0324",
+        "gemini_2_5_pro_preview",
+        "gpt-oss-120b",
+        "gpt2",
+        "gpt_3_5_turbo_instruct",
+        "gpt_4",
+        "gpt_4_0125",
+        "gpt_4_1106",
+        "gpt_4_turbo",
+        "gpt_4o",
+        "gpt_5",
+        "gpt_5_1_codex_max",
+        "grok_4",
+        "human",
+        "kimi_k2_thinking",
+        "o1_elicited",
+        "o1_preview",
+        "o3",
+        "o4-mini",
+        "qwen_2_5_72b",
+        "qwen_2_72b"
+      ],
+      "unique_aliases_count": 34,
+      "unique_aliases": [
+        "Claude 3 Opus",
+        "Claude 3.5 Sonnet (New)",
+        "Claude 3.5 Sonnet (Old)",
+        "Claude 3.7 Sonnet",
+        "Claude 4 Opus",
+        "Claude 4 Sonnet",
+        "Claude 4.1 Opus",
+        "Claude Opus 4.5",
+        "Claude Sonnet 4.5",
+        "DeepSeek-R1",
+        "DeepSeek-R1-0528",
+        "DeepSeek-V3",
+        "DeepSeek-V3-0324",
+        "GPT-2",
+        "GPT-4 0125",
+        "GPT-4 0314",
+        "GPT-4 1106",
+        "GPT-4 Turbo",
+        "GPT-4o",
+        "GPT-5",
+        "GPT-5.1-Codex-Max",
+        "Gemini 2.5 Pro Preview",
+        "Grok 4",
+        "Kimi K2 Thinking",
+        "Qwen2-72B",
+        "Qwen2.5-72B",
+        "davinci-002 (GPT-3)",
+        "gpt-3.5-turbo-instruct",
+        "gpt-oss-120b",
+        "human",
+        "o1",
+        "o1-preview",
+        "o3",
+        "o4-mini"
+      ],
+      "unique_task_families_count": 50,
+      "unique_tasks_count": 170,
+      "evaluation_dates_count": 0,
+      "evaluation_date_range": [],
+      "missing_human_duration_count": 0,
+      "missing_scores_count": 0,
+      "unique_keys": [
+        "alias",
+        "cloned",
+        "completed_at",
+        "equal_task_weight",
+        "fatal_error_from",
+        "generation_cost",
+        "human_cost",
+        "human_minutes",
+        "human_score",
+        "human_source",
+        "invsqrt_task_weight",
+        "model",
+        "run_id",
+        "scaffold",
+        "score_binarized",
+        "score_cont",
+        "started_at",
+        "task_family",
+        "task_id",
+        "task_source",
+        "task_version",
+        "time_limit",
+        "tokens_count"
+      ],
+      "field_data_types": {
+        "task_id": [
+          "str"
+        ],
+        "task_family": [
+          "str"
+        ],
+        "run_id": [
+          "str",
+          "int"
+        ],
+        "alias": [
+          "str"
+        ],
+        "model": [
+          "str",
+          "NoneType"
+        ],
+        "score_cont": [
+          "float"
+        ],
+        "score_binarized": [
+          "int"
+        ],
+        "fatal_error_from": [
+          "str",
+          "NoneType"
+        ],
+        "human_minutes": [
+          "float"
+        ],
+        "human_score": [
+          "float"
+        ],
+        "human_source": [
+          "str"
+        ],
+        "task_source": [
+          "str"
+        ],
+        "generation_cost": [
+          "NoneType",
+          "float"
+        ],
+        "human_cost": [
+          "float"
+        ],
+        "time_limit": [
+          "NoneType",
+          "float"
+        ],
+        "started_at": [
+          "NoneType",
+          "float"
+        ],
+        "completed_at": [
+          "NoneType",
+          "float"
+        ],
+        "task_version": [
+          "str",
+          "NoneType"
+        ],
+        "tokens_count": [
+          "NoneType",
+          "float"
+        ],
+        "cloned": [
+          "NoneType",
+          "float"
+        ],
+        "scaffold": [
+          "str",
+          "NoneType"
+        ],
+        "equal_task_weight": [
+          "float"
+        ],
+        "invsqrt_task_weight": [
+          "float"
+        ]
+      }
+    }
+  }
+}

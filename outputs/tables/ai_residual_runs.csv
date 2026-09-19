@@ -1,0 +1,11 @@
+metric,value,evidentiary_status
+Number of models analyzed,20,observed
+Growth slope b (log2 horizons / month),0.2466619466337516,derived
+Horizon doubling time (months),4.054131630951649,derived
+Doubling time 95% CI lower (months),3.559936178336093,derived
+Doubling time 95% CI upper (months),4.707655068048667,derived
+OLS R^2,0.9271366016514782,derived
+Total sign runs count,7,derived
+Longest consecutive positive residual run,4,derived
+Longest consecutive negative residual run,6,derived
+Curvature acceleration claim supported by raw residuals,False,derived
