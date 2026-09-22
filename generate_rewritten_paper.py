@@ -147,7 +147,7 @@ add_title("huynhbao@asu.edu · ORCID: 0009-0008-2372-5852", size=10, bold=False)
 
 p = doc.add_paragraph()
 p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-run = p.add_run("Collaborators: Claude Sonnet 5 & Gemini Spark\nWorking Manuscript — Research Series Zenodo DOI: 10.5281/zenodo.21335914")
+run = p.add_run("Collaborator: Claude (Anthropic)\nWorking Manuscript — Research Series Zenodo DOI: 10.5281/zenodo.21335914")
 run.italic = True
 run.font.size = Pt(10)
 run.font.name = 'Times New Roman'

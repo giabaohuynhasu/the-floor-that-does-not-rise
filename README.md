@@ -5,7 +5,7 @@
 **Author**: Gia Bao Huynh  
 *Independent Researcher, Ho Chi Minh City, Vietnam*  
 *Email: huynhbao@asu.edu · ORCID: [0009-0008-2372-5852](https://orcid.org/0009-0008-2372-5852)*  
-*Collaborator: Claude Sonnet 5 & Gemini Spark*
+*Collaborator: Claude (Anthropic)*
 
 **Repositories**:
 - 🌐 **GitHub**: [https://github.com/giabaohuynhasu/the-floor-that-does-not-rise](https://github.com/giabaohuynhasu/the-floor-that-does-not-rise)
@@ -184,6 +184,27 @@ python scripts/09_make_figures.py
 pytest -v tests/
 ```
 All 6 tests verify data integrity, ADF stationary conditions, METR parameter bounds, and table outputs with 0 failures.
+
+---
+
+## 🧠 Corpus-Wide Knowledge Graphs & Dialectic Citation Networks
+
+This branch (`corpus-knowledge-graphs`) incorporates the complete set-theoretic and dialectic citation networks for the author's broader research universe:
+
+1. **[The Floor That Does Not Rise (`knowledge_graph/`)](knowledge_graph/00_Master_Mindmap_and_Cite_Network.md)**:
+   - 23 nodes covering queueing theorists (Kleinrock, Kingman, Little, Pollaczek-Khinchine), economists (Baumol, Arrow, Solow), and philosophers (Popper, Lakatos, Polanyi).
+2. **[Institutional Endurance Series / ERI (`knowledge_graph_eri/`)](knowledge_graph_eri/00_Master_Mindmap_and_Cite_Network_ERI.md)**:
+   - Locked $N=6$ fsQCA baseline table ($\text{Collapse} = (O \cdot M) + (M \cdot \sim B)$) across Tang, Morocco, Nigeria, Tunisia, Japan, and Comparative Anchor.
+   - 10 Thinker cards (Dardess 1973, Dower 1999, Perkins 2004, Lugard 1922, Burke 1976, Ragin 2000, North 1990, Skocpol 1979; Acemoglu & Robinson and Lipset countered).
+3. **[Longevity Asymmetry Corpus / LAC (`knowledge_graph_lac/`)](knowledge_graph_lac/00_Master_Mindmap_and_Cite_Network_LAC.md)**:
+   - 5 Foundational Monographs (*Till Death Tear Us Apart*, *The Unfalsifiable Critic*, *The Biological Zero-Day Mechanism*, *The Closing Window*, *The Two Biases That Blind Governance*).
+   - 6 Doctrines (*The Calibration Trap*, *The Separation That Doesn't Register*, *The Third Leg That Never Existed*, *The Unprotected Floor*, *The Best Case Already Failed*, *When Death Becomes Poverty*).
+   - Thinker dialectic (Mannheim, Kuhn & Planck, Piketty, Sen, Rawls; De Grey, Fukuyama, Modigliani countered).
+4. **[War Correspondent Philosophy (`knowledge_graph_war_correspondent/`)](knowledge_graph_war_correspondent/00_Master_Mindmap_and_Cite_Network_WCP.md)**:
+   - Complete 6-Volume Edition ([Zenodo DOI: 10.5281/zenodo.22822036](https://doi.org/10.5281/zenodo.22822036)).
+   - Thinker dialectic (Popper, Gadamer, Ricoeur, Benjamin, Polanyi; Carnap and Baudrillard countered).
+5. **[The Fact Before the Vote & In the Name of Merit (`knowledge_graph_fact_and_merit/`)](knowledge_graph_fact_and_merit/00_Master_Mindmap_and_Cite_Network_Fact_and_Merit.md)**:
+   - Legal personhood at the species boundary (4 volumes) and academic gatekeeping mechanisms (6 volumes).
 
 ---
 
