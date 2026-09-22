@@ -2,7 +2,7 @@
 title: "NotebookLM Interrogation Dossier: Corpus Intelligence & Grounding Protocol"
 type: protocol
 status: foundational-canon
-author: "Gia Bao Huynh & Antigravity"
+author: "Gia Bao Huynh (Jun Huynh)"
 tags:
   - notebooklm
   - epistemic-gates

@@ -5,7 +5,7 @@
 **Author**: Gia Bao Huynh  
 *Independent Researcher, Ho Chi Minh City, Vietnam*  
 *Email: huynhbao@asu.edu · ORCID: [0009-0008-2372-5852](https://orcid.org/0009-0008-2372-5852)*  
-*Collaborator: Claude Sonnet 5 & Gemini Spark*
+*Collaborator: Claude (Anthropic)*
 
 **Repositories**:
 - 🌐 **GitHub**: [https://github.com/giabaohuynhasu/the-floor-that-does-not-rise](https://github.com/giabaohuynhasu/the-floor-that-does-not-rise)

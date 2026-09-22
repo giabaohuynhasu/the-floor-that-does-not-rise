@@ -172,7 +172,7 @@ run.font.name = 'Times New Roman'
 
 p = doc.add_paragraph()
 p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-run = p.add_run("© Gia Bao Huynh (2026). Collaborator: Claude Sonnet 5 & Gemini Spark.\nDraft manuscript prepared for open scholarly circulation and comment.")
+run = p.add_run("© Gia Bao Huynh (2026). Collaborator: Claude (Anthropic).\nDraft manuscript prepared for open scholarly circulation and comment.")
 run.font.size = Pt(9)
 run.font.name = 'Times New Roman'
 run.italic = True
