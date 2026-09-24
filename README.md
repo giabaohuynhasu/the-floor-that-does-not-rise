@@ -26,12 +26,34 @@ where:
 
 When $\rho(t) < 1$, the system is locally stable and the gap $\Delta(t)$ oscillates around a bounded mean. When $\rho(t) > 1$, the system is **structurally unstable**: the backlog of unabsorbed advances grows without bound, producing a widening frontier–floor chasm.
 
-We test this formalization against raw, primary data across **five empirical domains**:
+We test this formalization against raw, primary data across **four core empirical domains** in the primary paper, complemented by a dedicated quantitative module on longevity biotechnology:
 1. **U.S. Housing Construction Pipeline (Null Comparator)**: FRED and Census Bureau time series (Permits, Starts, Completions from 1968 to 2026).
-2. **AI Capability Growth (METR Benchmark)**: 24,008 task-level evaluation runs across 21 frontier models from METR's `eval-analysis-public` repository.
+2. **AI Capability Growth (METR Benchmark)**: 24,008 task-level evaluation runs across 21 frontier models from METR's `eval-analysis-public` repository ($T_{50} = 7.2$ months).
 3. **AI Distillation Extraction Economy (Anthropic Disclosures)**: Empirical exchange volumes (15M exchanges / 90 days) and effective throughput sensitivity modeling ($\mu_{\text{eff}}$).
-4. **Longevity Biotechnology**: CALERIE trial epigenetic biomarker outcomes (DunedinPACE, PhenoAge, GrimAge) versus economic price/access stratification.
-5. **Cybersecurity Vulnerabilities**: 28-year CVE inflow (1999–2026), CNA authority decentralization (HHI), and CISA KEV remediation administrative pacing.
+4. **Cybersecurity Vulnerabilities**: 28-year CVE inflow (1999–2026), CNA authority decentralization (HHI), and CISA KEV remediation administrative pacing.
+5. **Companion Empirical Module — Longevity Biotechnology Access**: A dedicated companion manuscript (*The Queue Behind the Frontier*) analyzing Tufts CSDD 50-year drug development latency, CALERIE trial epigenetic clock corrections, Anthropic export-control pause natural experiments, tiered access economics, and COVAX ceilings.
+
+---
+
+## 📄 Manuscripts in this Release
+
+This repository contains the authoritative PDFs and empirical replication data for two complementary manuscripts:
+
+### 1. Primary Formal Paper: *The Floor That Does Not Rise: Reset Events, Queueing Instability, and the Hard–Soft Floor Distinction*
+- **File**: [`The_Floor_That_Does_Not_Rise_FINAL.pdf`](The_Floor_That_Does_Not_Rise_FINAL.pdf) (11 pages)
+- **Zenodo DOI**: [10.5281/zenodo.22941167](https://doi.org/10.5281/zenodo.22941167) (Version 2.0.0) · [Concept DOI: 10.5281/zenodo.21335913](https://doi.org/10.5281/zenodo.21335913) (Resolves to latest version)
+- **Focus**: Workload process $V(t)$, queueing instability condition $\rho(t) > 1$, reset event arrivals $\lambda(t)$, jump sizes $\delta$, service rate $\mu$, and the analytical distinction between hard floors (physical throughput limits) and soft floors (contractual/distillation concessions). Tested against Housing (null control), AI capability (METR), AI distillation (Anthropic), and Cybersecurity (CVE/CNA/KEV).
+- **Scope Note**: To preserve strict queueing domain validity, the biotechnology access domain drafted earlier in the project history was decoupled from the primary paper and established as its own dedicated quantitative companion module.
+
+### 2. Quantitative Companion Module: *The Queue Behind the Frontier: A Quantitative Module on Longevity-Biotechnology Access, Extending the Political Economy of Volume IV*
+- **File**: [`Queue_Behind_the_Frontier.pdf`](Queue_Behind_the_Frontier.pdf) (7 pages)
+- **Data Source**: [`biotech_module_sourced_facts.xlsx`](biotech_module_sourced_facts.xlsx)
+- **Focus**: Quantitative delivery-latency model formalizing the conflict between the **Delivery Clock** (Tufts CSDD 50-year data: Phase I-to-approval takes 7.3 years, adding +4.8 months in 2014-18, approval rate 12%) and the **Discovery Clock** (METR 4.0-month doubling scenario). Features:
+  - *Epigenetic calibration*: CALERIE trial corrections (DunedinPACE rate reduction $d=0.3$, $-0.02$/yr or $2.5\%$; PhenoAge and GrimAge non-significant).
+  - *Export-control natural experiment*: Anthropic Claude 3.5 / 3.7 Fable 5 & Mythos 5 pause (June 12–30, 2026: 18-day pause = 14.8% of doubling interval, yielding 1.11x capability advance while foreign access was 0).
+  - *Tiered access economics*: Generic metformin ($4/mo), off-label rapamycin ($30–$150/mo), to concierge biological monitoring ($10,500–$85,000/yr).
+  - *Global distribution ceiling*: COVAX benchmark (600M doses delivered against 2B target in Year 1).
+  - *Falsification conditions G1–G5*: Precise empirical tests under which the model is refuted.
 
 ---
 
@@ -46,12 +68,14 @@ We test this formalization against raw, primary data across **five empirical dom
 | **AI (METR)** | Chronological negative residual run | 6 consecutive models | March–October 2024 growth lull | `observed` |
 | **Anthropic** | Primary distillation exchange volume | 166,667 exchanges/day | 15M exchanges / 24k accounts / 90 days | `reported_attribution` |
 | **Anthropic** | Effective throughput ($\mu_{\text{eff}}$) | $[0.015, 150.0]$ units/day | Sensitivity grid across $r, u, v, h$ parameters | `scenario` |
-| **Longevity** | DunedinPACE aging rate change | $-0.02$ /year | $[-0.035, -0.005]$, $p = 0.008$ (CALERIE) | `observed` |
-| **Longevity** | Generic Metformin Affordability | $0.98$ ($4.00/mo) | Widely affordable, but lacks validated longevity indication | `derived` |
-| **Longevity** | Concierge Clinic Affordability | $0.00$ ($1,250.00/mo) | Cash-pay tier, 3 orders of magnitude cost gap | `derived` |
 | **Cybersecurity** | CVE inflow growth (2018–2024) | $+139.3\%$ | 16,508 $\to$ 39,500 CVEs/year | `observed` |
 | **Cybersecurity** | CNA concentration (HHI) | $710$ | Decentralized from 1,500 in 2018 | `derived` |
 | **Cybersecurity** | BOD 22-01 remediation deadlines | 14–21 days | Administrative mandate; technical remediation unresolved | `observed` / `unresolved` |
+| **Longevity (Companion)** | Drug development delivery latency | $7.3$ years ($+4.8$ mo) | Tufts CSDD 50-year data; no structural acceleration | `observed` |
+| **Longevity (Companion)** | Phase I-to-Approval success rate | $12\%$ | Bounded biological pipeline capacity | `observed` |
+| **Longevity (Companion)** | DunedinPACE aging rate change | $-0.02$ /year ($d=0.3$) | $p = 0.008$ (CALERIE); PhenoAge & GrimAge null | `observed` |
+| **Longevity (Companion)** | Export control pause capability ratio | $1.11\times$ | 18-day pause / 4.0-mo doubling; foreign access = 0 | `derived` |
+| **Longevity (Companion)** | Cash-pay concierge clinic pricing | $\$10,500 - \$85,000$/yr | Fountain Life 2026; 3–4 orders of magnitude gap | `observed` |
 
 ---
 
@@ -60,6 +84,9 @@ We test this formalization against raw, primary data across **five empirical dom
 ```text
 the-floor-that-does-not-rise/
 ├── README.md                           # Comprehensive documentation & replication guide
+├── The_Floor_That_Does_Not_Rise_FINAL.pdf # Master formal manuscript (11 pages, Zenodo DOI: 10.5281/zenodo.21335914)
+├── Queue_Behind_the_Frontier.pdf       # Companion module: Longevity-biotechnology access (7 pages)
+├── biotech_module_sourced_facts.xlsx   # Verified empirical citations & parameters for companion module
 ├── LICENSE                             # MIT License
 ├── requirements.txt                    # Pinned Python dependencies
 ├── environment.yml                     # Conda/Mamba environment definition
@@ -73,7 +100,7 @@ the-floor-that-does-not-rise/
 │   │   ├── longevity/                  # CALERIE trial extracts (PMC11552646)
 │   │   └── cybersecurity/              # CISA KEV JSON and CVE time series
 │   ├── interim/                        # Cleaned intermediate extracts
-│   └── processed/                      # Analysis-ready datasets (e.g. ai_clean_runs.csv)
+│   └── processed/                      # Analysis-ready datasets (e.g. ai_clean_runs.csv, all_tables.xlsx)
 ├── metadata/
 │   ├── source_ledger.csv               # Complete inventory of primary sources and tiers
 │   ├── retrieval_log.csv               # HTTP headers, status codes, and timestamps
@@ -94,7 +121,10 @@ the-floor-that-does-not-rise/
 ├── tests/
 │   └── test_pipeline.py                # 6 automated validation tests (pytest)
 ├── outputs/
-│   ├── The_Floor_That_Does_Not_Rise_REWRITTEN_FINAL.docx # Completely rewritten manuscript
+│   ├── The_Floor_That_Does_Not_Rise_FINAL.pdf # Master formal manuscript
+│   ├── Queue_Behind_the_Frontier.pdf   # Companion quantitative module
+│   ├── biotech_module_sourced_facts.xlsx # Sourced facts workbook
+│   ├── all_tables.xlsx                 # Complete 13-sheet publication workbook
 │   ├── research_data_audit.pdf          # Full research data audit report
 │   ├── all_figures.zip                 # All publication figures
 │   ├── tables/                         # Generated CSV and LaTeX tables
