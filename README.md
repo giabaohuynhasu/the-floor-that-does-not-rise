@@ -86,7 +86,8 @@ the-floor-that-does-not-rise/
 ├── README.md                           # Comprehensive documentation & replication guide
 ├── The_Floor_That_Does_Not_Rise_FINAL.pdf # Master formal manuscript (11 pages, Zenodo DOI: 10.5281/zenodo.21335914)
 ├── Queue_Behind_the_Frontier.pdf       # Companion module: Longevity-biotechnology access (7 pages)
-├── biotech_module_sourced_facts.xlsx   # Verified empirical citations & parameters for companion module
+├── biotech_module_sourced_facts.xlsx   # Verified empirical citations & parameters for companion module (Excel)
+├── biotech_module_sourced_facts.csv    # Verified empirical citations & parameters for companion module (CSV)
 ├── LICENSE                             # MIT License
 ├── requirements.txt                    # Pinned Python dependencies
 ├── environment.yml                     # Conda/Mamba environment definition
@@ -123,7 +124,8 @@ the-floor-that-does-not-rise/
 ├── outputs/
 │   ├── The_Floor_That_Does_Not_Rise_FINAL.pdf # Master formal manuscript
 │   ├── Queue_Behind_the_Frontier.pdf   # Companion quantitative module
-│   ├── biotech_module_sourced_facts.xlsx # Sourced facts workbook
+│   ├── biotech_module_sourced_facts.xlsx # Sourced facts workbook (Excel)
+│   ├── biotech_module_sourced_facts.csv  # Sourced facts dataset (CSV)
 │   ├── all_tables.xlsx                 # Complete 13-sheet publication workbook
 │   ├── research_data_audit.pdf          # Full research data audit report
 │   ├── all_figures.zip                 # All publication figures
