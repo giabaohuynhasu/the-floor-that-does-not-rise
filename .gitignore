@@ -24,9 +24,34 @@ data/raw/ai_metr/eval-analysis-public/
 .DS_Store
 Thumbs.db
 
-# Temporary / Scratch scripts
+# Temporary / Scratch scripts & intermediate tools
 test_*.py
 read_paper.py
 send_gemini_spark_report.py
 send_raw_text_json_report_to_asu.py
 push_to_hub_and_github.py
+check_*.py
+audit_*.py
+sync_*.py
+inspect_*.py
+open_*.py
+query_*.py
+clean_*.py
+extract_*.py
+get_*.py
+list_*.py
+map_*.py
+push_*.py
+upgrade_*.py
+create_*.py
+enrich_*.py
+update_*.py
+search_*.py
+dump_*.py
+read_*.py
+*.cjs
+*.js
+*.txt
+*.jsonl
+*.log
+notebooklm_*.json
