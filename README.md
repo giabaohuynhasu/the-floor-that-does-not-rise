@@ -5,6 +5,7 @@
 **Author**: Gia Bao Huynh  
 *Independent Researcher, Ho Chi Minh City, Vietnam*  
 *Email: huynhbao@asu.edu · ORCID: [0009-0008-2372-5852](https://orcid.org/0009-0008-2372-5852)*  
+*Research Stance: Challenging the unchecked power, epistemic asymmetries, and monopolized governance of non-state actors across frontier technologies.*  
 *Collaborator: Claude (Anthropic)*
 
 **Repositories**:
